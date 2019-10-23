@@ -63,7 +63,7 @@ function draw() {
   //PAINT FRAME
   push();
   imageMode(CENTER);
-  image(frame, width / 2, height / 2, 800, height * scale);
+  image(frame, width / 2, height / 2, 800, 480);
   pop();
 
   //PALMS
@@ -100,7 +100,7 @@ function draw() {
 
   textSize(30);
   fill(44, 253, 164);
-  translate(0, 10);
+  translate(0, 35);
 
   text(myText, 20, 105);
   text(text2, 20, 130);
